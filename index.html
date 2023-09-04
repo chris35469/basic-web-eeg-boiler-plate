@@ -10,11 +10,17 @@
   <body>
    
 	
-    <h1>Hello World</h1>
-    <button id="bluetooth" style="position: absolute; padding: 10">
+    <h1>NeuroScope</h1>
+    <h2 id="status" style="color: green"></h2>
+    <h2 id="samples"></h2>
+    <button id="bluetooth" style="padding: 10">
       Connect
     </button>
+    <button id="start_local_store" style="padding: 10">
+      Start Session
+    </button>
     <div id="graph"></div>
+    <div id="session_graph"></div>
   </body>
 
   <script type="text/javascript" src="js/BCIDevice.build.js"></script>
